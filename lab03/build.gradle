@@ -5,6 +5,16 @@
  * For more details take a look at the Java Quickstart chapter in the Gradle
  * user guide available at https://docs.gradle.org/4.4.1/userguide/tutorial_java_projects.html
  */
+ 
+ 
+ buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.guardsquare:proguard-gradle:7.2.0'
+    }
+}
 
 
 // Apply the java plugin to add support for Java
@@ -29,6 +39,8 @@ jar {
 }
 
 
+
+
 // In this section you declare the dependencies for your production and test code
 
 dependencies {
@@ -42,7 +54,6 @@ dependencies {
     //testCompile 'junit:junit:4.12'
     
     implementation 'org.apache.commons:commons-csv:1.9.0'
-    classpath 'com.guardsquare:proguard-gradle:7.2.0'
 }
 
 

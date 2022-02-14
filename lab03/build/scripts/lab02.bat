@@ -67,7 +67,7 @@ goto fail
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\lab-03-gradle-1.0.jar;%APP_HOME%\lib\commons-csv-1.9.0.jar;%APP_HOME%\lib\proguard-gradle-7.2.0.jar;%APP_HOME%\lib\proguard-base-7.2.0.jar;%APP_HOME%\lib\kotlin-stdlib-jdk8-1.6.10.jar;%APP_HOME%\lib\gson-2.8.5.jar;%APP_HOME%\lib\proguard-core-8.0.6.jar;%APP_HOME%\lib\log4j-core-2.17.1.jar;%APP_HOME%\lib\log4j-api-2.17.1.jar;%APP_HOME%\lib\kotlin-stdlib-jdk7-1.6.10.jar;%APP_HOME%\lib\kotlinx-metadata-jvm-0.3.0.jar;%APP_HOME%\lib\kotlin-stdlib-1.6.10.jar;%APP_HOME%\lib\kotlin-stdlib-common-1.6.10.jar;%APP_HOME%\lib\annotations-13.0.jar
+set CLASSPATH=%APP_HOME%\lib\lab-03-gradle-1.0.jar;%APP_HOME%\lib\commons-csv-1.9.0.jar
 
 
 @rem Execute lab02
